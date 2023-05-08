@@ -1,0 +1,8 @@
+* { 
+    outline: 1px solid red;
+    outline-offset: -1px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
