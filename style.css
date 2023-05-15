@@ -77,7 +77,7 @@
 
   .grid-container {
     display: grid;
-    align-content: space-envenly;
+    justify-content: space-envenly;
   }
 
   .grid-item {
