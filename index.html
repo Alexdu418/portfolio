@@ -6,36 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandra Deschênes</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#À propos">À propos</a></li>
-          <li><a href="#Compétences">Compétences</a></li>
-          <li><a href="contact.html">Contact</a></li>
+        <ul class="flex-container">
+          <li class="flex-item"><a href="#À propos">À propos</a></li>
+          <li class="flex-item"><a href="#Compétences">Compétences</a></li>
+          <li class="flex-item"><a href="projets.html">Projets</a></li>
+          <li class="flex-item"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <img src="10x-featured-social-media-image-size.png" alt="Photo de moi" />
-    <h1>Je suis Alexandra Deschênes</h1>
-    <h2>Je suis technicienne en informatique</h2>
-    <section>
-      <h1>À propos</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus
-        commodi aliquam ex debitis, laudantium voluptatibus reprehenderit eos
-        qui blanditiis similique tempora veniam fugiat asperiores necessitatibus
-        perferendis dolor pariatur nisi?
+    <main>
+      <h1 id="Mon-nom">Je suis Alexandra Deschênes</h1>
+      <img src="10x-featured-social-media-image-size.png" alt="Photo de moi" />
+      <h2 id="Mon-travail">Je suis technicienne en informatique</h2>
+
+      <section class="a-propos">
+        <h1 class="a-propos">À propos</h1>
+        <p id="paragraphe-1">
+          Je suis une étudiante en techniques de l'informatique au cégep de
+          Rimouski. <br />
+          Je suis impliquée dans le conseil de mon programme et également au
+          Transistor, <br />
+          un centre de soutien informatique et de réparation
+        </p>
+      </section>
+      <section class="grid-container">
+        <article class="grid-item">
+          <img
+            src="10x-featured-social-media-image-size.png"
+            alt="Image de type informatique"
+          />
+        </article>
+        <article class="grid-item">
+          <h1>Compétences</h1>
+          <p id="paragraphe-2">
+            Je fais de la programmation en C/C++ <br />
+            Je fais également du développement web en HTML/CSS <br />
+            Je suis également capable de fournir du soutien technique en cas de
+            problèmes
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p class="footer">
+        Alexandra Deschênes 2023 © <br />
+        Tous droits réservés
       </p>
-    </section>
-    <section>
-      <h1>Compétences</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fugit
-        eaque vel, vero aliquid, odio provident odit ea quidem praesentium id
-        asperiores mollitia natus animi libero, rem nemo? Quidem, eius.
-      </p>
-    </section>
+    </footer>
   </body>
 </html>

@@ -1,8 +1,113 @@
 * { 
-    outline: 1px solid red;
-    outline-offset: -1px;
+    background-color: #3D314A;
   }
   
   html {
     scroll-behavior: smooth;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: #1A1423;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .flex-item {
+    padding: 1%;
+    margin: 1%;
+    background-color: #1A1423;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: #F2CD5D;
+    background-color:#1A1423;
+    font-family: 'Fira sans', sans-serif;
+  }
+
+  a:hover, a:active {
+    text-decoration: none;
+    color: #A799B7;
+    background-color: #1A1423;
+    font-family: 'Fira sans', sans-serif;
+  }
+
+  #Mon-nom {
+    color: #F2CD5D;
+    font-family: 'Fira sans', sans-serif;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #Mon-travail {
+    color: #F2CD5D;
+    font-family: 'Fira sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #DEB841;
+    font-family: 'Fira sans', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .a-propos {
+    background-color:#1A1423;
+  }
+
+  #paragraphe-1 {
+    color:#A799B7;
+    background-color:#1A1423;
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    font-family: 'Fira sans', sans-serif;
+    font-size: 18px;
+  }
+
+  .grid-container {
+    display: grid;
+    align-content: space-envenly;
+  }
+
+  .grid-item {
+    margin: auto;
+  }
+
+  #paragraphe-2 {
+    color: #F2CD5D;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    font-family: 'Fira sans', sans-serif;
+    font-size: 18px;
+  }
+
+  .footer {
+    color: #DEB841;
+    background-color: #1A1423;
+    text-align: center;
+    font-family: 'Fira sans', sans-serif;
+    font-size: 12px;
+    padding: 5%;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-style: solid;
+    border-color: #F2CD5D;
   }
