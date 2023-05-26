@@ -86,15 +86,6 @@
     font-size: 18px;
   }
 
-  .footer {
-    color: #DEB841;
-    background-color: #1A1423;
-    text-align: center;
-    font-family: 'Fira sans', sans-serif;
-    font-size: 12px;
-    padding: 5%;
-  }
-
   img {
     display: block;
     margin-left: auto;
@@ -161,4 +152,13 @@
       font-family:'Fira sans', sans-serif;
       font-size:18px;
       text-align: center;
+    }
+
+    .footer {
+      color: #DEB841;
+      background-color: #1A1423;
+      text-align: center;
+      font-family: 'Fira sans', sans-serif;
+      font-size: 12px;
+      padding: 5%;
     }
