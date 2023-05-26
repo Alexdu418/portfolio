@@ -51,6 +51,20 @@
     text-align: center;
   }
 
+  .grid-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 50vw 50vw;
+  }
+  .grid-item {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+  }
+
+
   h1 {
     color: #DEB841;
     font-family: 'Fira sans', sans-serif;
@@ -64,27 +78,13 @@
     background-color:#1A1423;
   }
 
-  #paragraphe-1 {
+  .paragraphe-1 {
     color:#A799B7;
-    background-color:#1A1423;
     text-align:center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 10%;
     font-family: 'Fira sans', sans-serif;
     font-size: 18px;
   }
   
-
-  #paragraphe-2 {
-    color: #F2CD5D;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 10%;
-    font-family: 'Fira sans', sans-serif;
-    font-size: 18px;
-  }
 
   img {
     display: block;
