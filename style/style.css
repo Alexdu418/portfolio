@@ -133,6 +133,10 @@
     width:10%;
    }
 
+   .image {
+    border: none;
+   }
+
    .flex-container-3 {
     display: flex;
     flex-direction: row;
